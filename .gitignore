@@ -1,0 +1,45 @@
+# Build products and machine-local IDE state
+.build/
+build/
+DerivedData/
+.swiftpm/
+**/xcuserdata/
+*.xcuserstate
+.DS_Store
+*.app/
+*.dSYM/
+*.xcarchive/
+
+# Credentials and private API configuration
+api.txt
+api.example.json
+api.json
+.env
+.env.*
+*.local.json
+*.local.plist
+*credentials*.json
+*secrets*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local databases, calendar exports, backups and execution logs
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.store
+*.store-*
+*.ics
+*.log
+*.backup
+*.bak
+Backups/
+backups/
+exports/
+private/
+local-data/
